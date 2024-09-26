@@ -1,0 +1,86 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(1c2c7b5d46301c215331.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  color: #1a1a1a;
+}
+
+.outlook-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.day-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1;
+  margin: 0 10px;
+  color: black;
+}
+
+h2,
+h3 {
+  color: #ffa500;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+}
+
+#toggle-temp {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
